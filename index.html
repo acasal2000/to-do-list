@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+
+        <link href="css/style.css" rel="stylesheet">
+
+       
+    </head>
+    <body onload="checkIsEmpty(); checkNotesIsEmpty();">
+
+        <div id="title-container">
+            <h3>To Do List</h3>
+        </div>
+
+        <div id="main-container">
+
+            
+
+            <div id="to-do-action-container">
+
+                <div id="to-do-text-area">
+                    
+                    <div id="to-do-subtitle">
+                        <p>Add An Item: </p>
+                    </div>
+
+                    <div id="input-text-area">
+                        <textarea id="textarea-box" placeholder="Enter an item name"></textarea>
+                    </div>
+
+                </div>
+
+                <div id="to-do-insert-button">
+                    <button onclick="addNotes();">Insert</button>
+                </div>                
+
+            </div>
+
+            <div id="to-do-container">
+
+                <h3>Pending Notes</h3>
+                <hr>
+                <div id="table-container">
+                    <!--<table style="width:99%; margin: 0 auto;    padding: 10px;">                        
+                        <tr>
+                          <td id="table-row"></td>                        
+                        </tr>
+                    </table> --> 
+
+                    <table style="width:99%; margin: 0 auto; padding: 10px;" id="table-notes">                        
+                        
+                    </table> 
+                    
+                </div>
+            </div>
+
+            <div id="completed-notes-container">
+
+                <div id="title-completed-container">
+                    
+                    <h3>Completed Notes</h3>
+                    <hr>
+                </div>
+
+                <div id="table-completed-container">
+                    <table style="width:99%; margin: 0 auto; padding: 10px;" id="table-completed">                        
+                        
+                    </table> 
+                </div>
+
+            </div>
+
+        
+
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

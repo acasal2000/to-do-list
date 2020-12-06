@@ -1,0 +1,135 @@
+body{
+    background-color: #f7f7f7;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main-container{
+    /* border: 2px black solid; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+#title-container{
+    /* border: 2px black solid; */
+    padding: 10px;
+    background-color: #003887;
+    color: white;
+}
+
+#to-do-action-container{
+    /* border: 2px black solid; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#to-do-text-area{
+    /* border: 2px black solid; */
+    padding-top: 10px;
+    width: 90%;
+}
+
+#to-do-subtitile{
+    padding: 10px;
+}
+
+#input-text-area textarea{
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+}
+
+#to-do-insert-button{
+    /* border: 2px black solid; */
+    padding: 10px;
+    /* width: 20%; */
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+#to-do-insert-button button{
+    width: 100px;
+    height: 40px;
+    margin-top: 48px;
+    background-color: #00a4e6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#to-do-container{
+    /* border: 2px black solid; */
+}
+
+#table-notes{
+    width:99%;
+    margin: 0 auto;
+    padding: 10px;
+    /* background: white; */
+    border-radius: 40px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#table-row{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#table-row td{
+    width: 100%;
+}
+
+#table-row button{
+    background: none;
+    border: none;
+}
+
+#table-completed{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#table-completed-row td{
+    /* background-color: white;
+    margin-top: 10px;
+    border-radius: 10px; */
+    width: 100%;
+}
+
+
+#table-completed-row{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#table-completed-row button{
+    background: none;
+    border: none;
+}
+
+
+#note-text{
+    margin-left: 10px;
+}
+
+#completed-notes-container{
+    margin-top: 120px;
+}
+
+#empty-completed-txt, #empty-notes{
+    padding: 10px;
+    margin-top: 0;
+}
